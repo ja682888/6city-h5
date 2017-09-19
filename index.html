@@ -16,11 +16,13 @@
             padding: 0;
             margin: 0;
         }
-        a{
-          color: dodgerblue;
+        
+        a {
+            color: dodgerblue;
         }
-        .app{
-          padding: 20px;
+        
+        .app {
+            padding: 20px;
         }
     </style>
     <title>6city专题页2017 H5</title>
@@ -32,6 +34,7 @@
         6城 H6 专题 CDN 服务
     </h6>
     <div class="app">
+        <div id="container"></div>
         <ul class="ul">
             <li>
                 <a href="0919/" target="_blank">新手指引</a>
@@ -40,5 +43,19 @@
 
     </div>
 </body>
+<script>
+    var container = document.querySelector('#container');
+    var qr = new QRCode(container, {
+        width: 200,
+        height: 200
+    });
+
+    var makeCode = function() {
+        var text = window.location.href;
+        qr.make(text);
+    };
+
+    makeCode();
+</script>
 
 </html>
