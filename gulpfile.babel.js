@@ -96,13 +96,13 @@ gulp.task('scripts', () => gulp.src(jsLoadSrc)
     .pipe(rename(minjs))
     .pipe(uglify())
     .pipe(header(banner, { pkg }))
-    .pipe(gulp.dest(`./${day}/build/css/js/`))
+    .pipe(gulp.dest(`./${day}/build/js/`))
     .pipe(reload({ stream: true }))
     .pipe(notify({ message: 'Scripts task complete' })));
 
 gulp.task('images', () => gulp.src(`./${day}/src/img/*`)
     .pipe(imagemin())
-    .pipe(gulp.dest(`./${day}/build/css/img`)));
+    .pipe(gulp.dest(`./${day}/build/img`)));
 
 
 gulp.task('html', () => {

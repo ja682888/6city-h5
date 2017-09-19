@@ -56,7 +56,7 @@ function FloorShopAll(data, imgHead, id) {
       url = data[i]['h5url']
     }
     var name = data[i]['店铺名字'];
-    var img = `./build/css/img/shop/${id}-${i+1}.png`;
+    var img = `./build/img/shop/${id}-${i+1}.png`;
 
     str += `<li class="li_${i+1}">
           <a href="${url}" class="" target="_black" title="${name}">
