@@ -130,7 +130,7 @@ gulp.task('homeHtml', () => {
 
 
 // 静态服务器 + 监听 scss/html 文件
-gulp.task('dev', ['sass'], () => {
+gulp.task('dev', ['sass','scripts'], () => {
 
     browserSync.init({
         server: `./${day}/`

@@ -10,6 +10,34 @@ a {
   padding-top: 40px;
 }
 
+.swiper {
+  height: 100%;
+  overflow: hidden;
+  transition: translate3d 0.3s ease;
+  position: relative;
+}
+
+.item {
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  &.active {
+    .animated {
+      animation-fill-mode: both;
+      opacity: 1;
+    }
+  }
+  &:not(.active) {
+    .animated {
+      animation: none;
+      opacity: 0;
+    }
+  }
+}
+
 .number {
   position: absolute;
   top: 16px;
@@ -48,6 +76,11 @@ a {
   }
 }
 
+.box-main{
+  overflow: hidden;
+  position:relative;
+}
+
 .box-main-disc {
   width: 500px;
   margin: 0 auto;
@@ -62,13 +95,13 @@ a {
 .box-main-pic {
   width: 500px;
   margin: 0 auto;
-  &.ww{
+  &.ww {
     width: 100%;
   }
-  &.ba{
+  &.ba {
     padding-top: 58px;
     padding-bottom: 58px;
-    img{
+    img {
       max-width: 552px;
     }
   }
@@ -125,6 +158,9 @@ a {
   &::after {
     top: 20px;
     bottom: 0;
+  }
+  .box-main-pic{
+    // height: 403px;
   }
 }
 

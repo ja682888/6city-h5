@@ -7,7 +7,7 @@
     "author": "Julian",
     "load": {
       "css": ["./0919/src/scss/main.scss"],
-      "js": ["./libs/js/lazy-load-img.js", "./libs/js/view-rem750.js", "./0919/src/js/main.js"]
+      "js": ["./libs/js/lazy-load-img.js", "./libs/js/view-rem750.js","./libs/js/iswiper.js", "./0919/src/js/main.js"]
     },
     "build": {
       "css": "app.css",
