@@ -13,19 +13,5 @@
       "css": "app.css",
       "js": "app.js"
     }
-  },
-  "0831": {
-    "id": "app",
-    "title": "",
-    "version": "0.0.1",
-    "author": "Julian",
-    "load": {
-      "css": ["./0831/src/scss/main.scss"],
-      "js": ["./libs/js/panli.js", "./libs/js/fastclick.js", "./libs/js/view-rem750.js", "./0831/src/js/main.js"]
-    },
-    "build": {
-      "css": "app.css",
-      "js": "app.js"
-    }
   }
 }
