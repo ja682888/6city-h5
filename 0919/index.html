@@ -15,9 +15,9 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <style>
-        [data-loading="true"] {
-            /* background: transparent url("./build/img/loader.svg") no-repeat center center; */
-            background-size: 80px 80px;
+        .tips-box::after {
+            background: url("./build/img/tips.png") no-repeat center center;
+            background-size: 100% 100%;
         }
     </style>
     <link rel="stylesheet" href="./build/css/app.css">
@@ -27,31 +27,188 @@
 <body>
     <div class="app bgcolor m-auto" id="app">
         <section class="floor floor_1">
-            <img src="./build/img/loader.svg" data-src="./build/img/1.png">
+            <div class="number">1</div>
+            <div class="box">
+                <div class="title">
+                    <span class="s">挑选商品</span>
+                </div>
+                <div class="border">
+                    <div class="box-main">
+                        <div class="box-main-disc">
+                            从6City全球购App首页进入第三方购物平台选购商品，直接代购。
+                        </div>
+                        <div class="box-main-pic">
+                            <img src="./build/img/loader.svg" data-src="./build/img/1-1.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="tips-box">
+                    现已支持美、日、澳、英、法、德的各大电商网站，如您想要代买的商品不在支持的网站列表中，可以联系在线客服咨询人工下单。
+                </div>
+            </div>
         </section>
         <section class="floor floor_2">
-            <img src="./build/img/loader.svg" data-src="./build/img/2.png">
+            <div class="number">2</div>
+            <div class="box">
+                <div class="title">
+                    <span class="s">填写代购单</span>
+                </div>
+                <div class="border">
+                    <div class="box-main">
+                        <div class="box-main-disc">
+                            选择商品颜色、尺寸、数量，加入购物车。
+                        </div>
+                        <div class="box-main-pic">
+                            <img src="./build/img/loader.svg" data-src="./build/img/2-1.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="tips-box">
+                    如有网站优惠码请粘贴于此，若优惠码可用，我们将在1-2个工作日内退还差价给您。
+                </div>
+            </div>
         </section>
         <section class="floor floor_3">
-            <img src="./build/img/loader.svg" data-src="./build/img/3.png">
+            <div class="number">3</div>
+            <div class="box">
+                <div class="title">
+                    <span class="s">支付订单费用</span>
+                </div>
+                <div class="border">
+                    <div class="box-main">
+                        <div class="box-main-disc">
+                            在购物车结算，支付商品费用及服务费。<br/>
+                            <a href="" class="click-a">费用说明</a>
+                        </div>
+                        <div class="box-main-pic">
+                            <img src="./build/img/loader.svg" data-src="./build/img/3-1.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="floor floor_4">
-            <img src="./build/img/loader.svg" data-src="./build/img/4.png">
+            <div class="number">4</div>
+            <div class="box">
+                <div class="title">
+                    <span class="s">6City代买</span>
+                </div>
+                <div class="border">
+                    <div class="box-main">
+                        <div class="box-main-disc">
+                            我们的买手将按照您的要求，为您在官网订购商品。
+                        </div>
+                        <div class="ww box-main-pic">
+                            <img src="./build/img/loader.svg" data-src="./build/img/4-1.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="tips-box">
+                    有些网站的商品价格、库存可能波动较大，因此在订购过程中，我们可能会联系您确认信息。建议您绑定手机号，并将手机通知设置为允许，以免错过服务通知。
+                </div>
+            </div>
         </section>
         <section class="floor floor_5">
-            <img src="./build/img/loader.svg" data-src="./build/img/5.png">
+            <div class="number">5</div>
+            <div class="box">
+                <div class="title">
+                    <span class="s">转运公司入库</span>
+                </div>
+                <div class="border">
+                    <div class="box-main">
+                        <div class="box-main-disc">
+                            购物网站发货后，商品将发往转运公司仓库，称重入库后，商品会在“我的-转运仓库”里显示。
+                        </div>
+                        <div class="ww box-main-pic">
+                            <img src="./build/img/loader.svg" data-src="./build/img/5-1.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="tips-box">
+                    您可以将入库的商品提交转运，也可以等待您的其他包裹都入库后一起提交。只有相同转运仓库的包裹才能合并转运。
+                </div>
+            </div>
         </section>
         <section class="floor floor_6">
-            <img src="./build/img/loader.svg" data-src="./build/img/6.png">
+            <div class="number">6</div>
+            <div class="box">
+                <div class="title">
+                    <span class="s">提交转运</span>
+                </div>
+                <div class="border">
+                    <div class="box-main">
+                        <div class="box-main-disc">
+                            在“转运仓库”中，点击包裹下方的“提交转运”，填写收货信息，选择转运线路。
+                        </div>
+                        <div class="box-main-pic">
+                            <img src="./build/img/loader.svg" data-src="./build/img/6-1.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="tips-box">
+                    1.如需合并多个包裹一起转运，您可以选择“合箱”服务。<br/> 2.您还可以根据需要选择“加固”等增值服务。
+                </div>
+            </div>
         </section>
         <section class="floor floor_7">
-            <img src="./build/img/loader.svg" data-src="./build/img/7.png">
+            <div class="number">7</div>
+            <div class="box">
+                <div class="title">
+                    <span class="s">支付国际运费</span>
+                </div>
+                <div class="border">
+                    <div class="box-main">
+                        <div class="box-main-disc">
+                            国际运费根据包裹重量、选择的转运线路、选择的增值服务得出。
+                        </div>
+                        <div class="box-main-pic">
+                            <img src="./build/img/loader.svg" data-src="./build/img/7-1.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="floor floor_8">
-            <img src="./build/img/loader.svg" data-src="./build/img/8.png">
+            <div class="number">8</div>
+            <div class="box">
+                <div class="title">
+                    <span class="s">转运公司发货</span>
+                </div>
+                <div class="border">
+                    <div class="box-main">
+                        <div class="box-main-disc">
+                            转运公司将根据您选择的路线操作发货。
+                        </div>
+                        <div class="box-main-pic ba">
+                            <img src="./build/img/loader.svg" data-src="./build/img/8-1.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="tips-box">
+                    若物品与路线不匹配，转运公司会取消运单，此时您需重新选匹配的转运路线。因此，建议咨询客服确定物品选择正常转运路线。
+                </div>
+            </div>
         </section>
         <section class="floor floor_9">
-            <img src="./build/img/loader.svg" data-src="./build/img/9.png">
+            <div class="number">9</div>
+            <div class="box">
+                <div class="title">
+                    <span class="s">收货</span>
+                </div>
+                <div class="border">
+                    <div class="box-main">
+                        <div class="box-main-disc">
+                            收到包裹后，在“我的-转运订单”里确认收货。
+                        </div>
+                        <div class="box-main-pic">
+                            <img src="./build/img/loader.svg" data-src="./build/img/9-1.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="tips-box">
+                    1.请当快递面开箱查验后签收，若发现短少或破损，务必请快递员开具相关证明，及时联系我们；其他问题，也可以在相应的转运订单中点击客服按钮提交。<br/> 2.确认收货后会有积分赠送，积分可用于直接抵扣国际运费。
+                </div>
+            </div>
         </section>
     </div>
 </body>

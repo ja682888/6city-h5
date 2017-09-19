@@ -20,7 +20,7 @@
         el.classList.add('loading-success')
       },
       error: function (el) { // 图片加载失败执行方法
-        el.src = './images/error.png'
+        el.src = './build/img/browser.png'
       }
     })
     // lazyLoadImg.start() // 重新开启懒加载程序
