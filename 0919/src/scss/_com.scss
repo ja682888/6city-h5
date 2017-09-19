@@ -1,0 +1,33 @@
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+  *zoom: 1;
+}
+
+.bgcolor {
+  background: #eb5539;
+  // @include font-hei;  
+}
+
+.center {
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}

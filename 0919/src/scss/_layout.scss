@@ -1,0 +1,31 @@
+// html,
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  /* no */
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #FFF;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0)
+}
+
+input,
+textarea {
+  -webkit-appearance: none;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
