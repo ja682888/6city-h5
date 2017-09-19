@@ -205,3 +205,5 @@ var layzr = (function () {
 return layzr;
 
 })));
+
+//https://github.com/callmecavs/layzr.js

@@ -7,7 +7,7 @@
     "author": "Julian",
     "load": {
       "css": ["./0919/src/scss/main.scss"],
-      "js": ["./libs/js/panli.js", "./libs/js/fastclick.js", "./libs/js/view-rem720.js", "./0919/src/js/main.js"]
+      "js": ["./libs/js/lazy-load-img.js", "./libs/js/view-rem750.js", "./0919/src/js/main.js"]
     },
     "build": {
       "css": "app.css",
@@ -15,13 +15,13 @@
     }
   },
   "0831": {
-    "id": "528",
+    "id": "app",
     "title": "",
     "version": "0.0.1",
     "author": "Julian",
     "load": {
       "css": ["./0831/src/scss/main.scss"],
-      "js": ["./libs/js/panli.js", "./libs/js/fastclick.js", "./libs/js/view-rem720.js", "./0831/src/js/main.js"]
+      "js": ["./libs/js/panli.js", "./libs/js/fastclick.js", "./libs/js/view-rem750.js", "./0831/src/js/main.js"]
     },
     "build": {
       "css": "app.css",
