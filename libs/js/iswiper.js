@@ -280,7 +280,8 @@
      */
     Swiper.prototype._activate = function (index) {
         var clazz = this._options.activeClass;
-
+        console.log(index)
+        console.log(this.$items.length)
         Array.prototype.forEach.call(this.$items, function ($item, key) {
             $item.classList.remove(clazz);
             if (index === key) {
