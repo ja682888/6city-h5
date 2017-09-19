@@ -17,7 +17,7 @@
         
       },
       success: function (el) { // 图片加载成功执行方法
-        el.classList.add('success')
+        el.classList.add('loading-success')
       },
       error: function (el) { // 图片加载失败执行方法
         el.src = './images/error.png'
