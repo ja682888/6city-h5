@@ -117,10 +117,9 @@
  .swiper-button-prev,
  .swiper-button-next {
    position: absolute;
-   top: 50%;
-   width: 27px;
-   height: 44px;
-   margin-top: -22px;
+   top: 10%;
+   //    width: 27px;
+   //    height: 44px;
    z-index: 10;
    cursor: pointer;
    -moz-background-size: 27px 44px;
@@ -128,6 +127,7 @@
    background-size: 27px 44px;
    background-position: center;
    background-repeat: no-repeat;
+//    transform: translate(-50%, -50%);
  }
  
  .swiper-button-prev.swiper-button-disabled,
@@ -625,8 +625,8 @@
    //    /*no*/
    //    border-bottom: 17px solid transparent;
    /*no*/
-   width: 20px;
-   height: 68px;
+   width: 40px;
+   height: 80%;
    background: url('../img/next@2x.png') no-repeat center center;
    background-size: 10px 34px;
    transform: rotate(180deg);
@@ -638,8 +638,8 @@
    //    border-top: 50px solid transparent;
    //    border-bottom: 50px solid transparent;
    //    border-left: 50px solid #444;
-   width: 20px;
-   height: 68px;
+   width: 30px;
+   height: 80%;
    background: url('../img/next@2x.png') no-repeat center center;
    background-size: 10px 34px;
  }
