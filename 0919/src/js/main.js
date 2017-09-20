@@ -26,17 +26,22 @@
       // lazyLoadImg.start() // 重新开启懒加载程序
       // lazyLoadImg.destroy() // 销毁图片懒加载程序
 
-    window.swiper = new Swiper({
-      // 横屏切换
-      direction: 'horizontal',
-      // 自动切换，自动切换必须同时 infinite:true
-      // autoSwitch: true,
-      // 首尾循环
-      // infinite: true,
-      // 缓动
-      easing: "cubic-bezier(.10, .71, .39, .93)",
-      // 进度条
-      // progressBar: true
-    });
+    // var mySwiper = new Swiper('.box-main', {
+    //   // Optional parameters
+    //   direction: 'horizontal',
+    //   // loop: true,
+    //   // If we need pagination
+    //   // pagination: '.swiper-pagination',
+    //   // paginationClickable: true,
+    //   pagination: '.swiper-pagination',
+    //   paginationClickable: true,
+    //   // Navigation arrows
+    //   nextButton: '.swiper-button-next',
+    //   prevButton: '.swiper-button-prev',
+
+    //   // And if we need scrollbar
+    //   // scrollbar: '.swiper-scrollbar',
+    // })
+
   }
 })()
