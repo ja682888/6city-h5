@@ -1149,7 +1149,6 @@
             if (!s.params.loop) {
                 if (s.params.prevButton && s.prevButton && s.prevButton.length > 0) {
                     if (s.isBeginning) {
-                        console.log('++')
                         s.prevButton.addClass(s.params.buttonDisabledClass);
                         if (s.params.a11y && s.a11y) s.a11y.disable(s.prevButton);
                     }
@@ -1160,7 +1159,6 @@
                 }
                 if (s.params.nextButton && s.nextButton && s.nextButton.length > 0) {
                     if (s.isEnd) {
-                        console.log('++2')
                         s.nextButton.addClass(s.params.buttonDisabledClass);
                         if (s.params.a11y && s.a11y) s.a11y.disable(s.nextButton);
                     }
