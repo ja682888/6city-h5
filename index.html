@@ -16,20 +16,27 @@
             padding: 0;
             margin: 0;
         }
-        body{
-          text-align: center;
+        
+        body {
+            text-align: center;
         }
-        h5{
-          padding: 10px;
+        
+        h3,
+        h5,
+        p {
+            padding: 10px;
         }
+        
         a {
             color: dodgerblue;
         }
-        #container{
-          width: 100px;
-          height: 100px;
-          margin: 0 auto;
+        
+        #container {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
         }
+        
         .app {
             padding: 20px;
         }
@@ -39,13 +46,25 @@
 </head>
 
 <body>
-    <h5>
+    <h3>
         6城 H6 专题 CDN 服务
+    </h3>
+    <h5>
+        我们提供 <strong>2</strong> 种解决方案 。 异步懒加载 和 同步加载。
     </h5>
+    <p>
+        如果希望首屏加载快 可以采用 异步懒加载, 用户浏览到哪里在去加载资源。
+    </p>
+    <p>
+        如果不希望有 loading 状态, 可以采用 同步加载， 但会造成首屏打开白屏状态。
+    </p>
     <div id="container"></div>
     <div class="app">
-        
+
         <ul class="ul">
+            <li>
+                <a href="0919/async.html" target="_blank">新手指引 || 异步懒加载</a>
+            </li>
             <li>
                 <a href="0919/" target="_blank">新手指引</a>
             </li>
