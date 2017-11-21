@@ -1,0 +1,55 @@
+.hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  // padding-top: 40px;
+  min-height: 5404px;
+  background: #21051e url("../img/banner.png") no-repeat center -90px;
+  background-size: 750px 5464px;
+}
+.pr{
+  position: relative;
+}
+
+.pa{
+  position: absolute;
+}
+.floor {
+  text-align: center;
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  &_1 {
+    padding-top: 362px;
+  }
+  
+  &_4 {
+    padding-top: 60px;
+    color: #fff;
+    font-size: 26px
+  }
+}
+
+
+.copy-content{
+  top: 250px;
+  left: 0;
+  right: 0;
+  height: 260px;
+  // background-color: rgba(#000000, .3);
+  text-align: center;
+  a{
+    display: inline-block;
+    width: 200px;
+    background-color: transparent;
+    opacity: .4;
+    height: 260px;
+  }
+}

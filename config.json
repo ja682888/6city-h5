@@ -1,5 +1,19 @@
 {
-  "start": "0919",
+  "start": "1121",
+  "1121": {
+    "id": "app",
+    "title": "海带宝活动页",
+    "version": "0.0.1",
+    "author": "Julian",
+    "load": {
+      "css": ["./1121/src/scss/main.scss"],
+      "js": ["./libs/js/lazy-load-img.js","./libs/js/panli.js", "./libs/js/fastclick.js","./libs/js/view-rem750.js","./libs/js/clipboard.min.js", "./1121/src/js/main.js"]
+    },
+    "build": {
+      "css": "app.css",
+      "js": "app.js"
+    }
+  },
   "0919": {
     "id": "app",
     "title": "",

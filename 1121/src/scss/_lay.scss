@@ -1,0 +1,62 @@
+.layui-layer.layui-Pan-nobg {
+  background-color: transparent;
+}
+
+.layermmain {
+  .layermchild {
+    background-color: transparent;
+  }
+}
+
+.Lay-wrap {
+  display: none;
+}
+
+.Lay-main-1,
+.Lay-main-2 {
+  position: relative;
+  width: 574px;
+  height: 353px;
+  display: block;
+  a {
+    display: block;
+    position: absolute;
+    height: 80px;
+    // background-color: forestgreen;
+    &.l-close {
+      right: 0;
+      top: 0;
+      width: 80px;
+      // background: red;
+    }
+    &.l-open {
+      left: 50px;
+      right: 50px;
+      top: 240px;
+      height: 90px;
+      // background: red;
+      background-color: transparent;
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+.Lay-main-1 {
+  height: 421px;
+  .l-daijin {
+    width: 160px;
+    right: 30px;
+    top: 200px;
+  }
+  .l-kefu {
+    width: 160px;
+    left: 228px;
+    top: 247px;
+  }
+}
+
+.Lay-main-2 {
+  height: 462px;
+}
