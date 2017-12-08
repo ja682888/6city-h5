@@ -30,10 +30,12 @@ a {
     padding-top: 362px;
   }
   
-  &_4 {
+  &_end {
     padding-top: 60px;
+    padding-bottom: 60px;
     color: #fff;
-    font-size: 26px
+    font-size: 26px;
+    line-height: 1.5;
   }
 }
 
